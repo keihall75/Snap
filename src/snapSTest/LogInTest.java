@@ -37,7 +37,7 @@ public class LogInTest {
 	    driver.findElement(By.name("userid")).clear();
 	    driver.findElement(By.name("userid")).sendKeys("keihall@coca-cola.com");
 	    driver.findElement(By.id("logonpassfield")).clear();
-	    driver.findElement(By.id("logonpassfield")).sendKeys("Nassor0@");
+	    driver.findElement(By.id("logonpassfield")).sendKeys("Asha2002!");
 	    driver.findElement(By.name("Submit")).click();
 	    Assert.assertEquals(driver.getCurrentUrl(), "https://snap.coke.com/sc/home.aspx");
 	  }
